@@ -1,4 +1,4 @@
-DDD# Reading-and-comprehense-linux-Kernel-network-protocol-stack
+
 linux内核网络协议栈阅读理解
 
     本代码是linux内核网络协议栈源码(版本为2.6.32.65)，主要用于公司项目中要添加路由寻路和二层交换功能，学习网络内核协议栈部分代码进行参考。
@@ -25,12 +25,12 @@ linux内核网络协议栈阅读理解
 .网桥模块
 .vlan模块
 
-**本项目阅读工具为**:
-source insight
+**本项目阅读工具为**:    
+source insight    
 
-**目录结构为**:
--**include**:包含引入的头文件
- |-
--**net**:网络协议栈实现文件
- |-
--**SourceInsight**:sourceInsight工程项目文件
+**目录结构为**:    
+-**include**:包含引入的头文件    
+ |-    
+-**net**:网络协议栈实现文件    
+ |-    
+-**SourceInsight**:sourceInsight工程项目文件    
