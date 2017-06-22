@@ -33,7 +33,7 @@ source insight
  |- net/ip_fib.h:定义路由表等结构、宏和函数原型。       
 -**net**:网络协议栈实现文件    
  |- ipv4/fib_lookup.h:定义路由查找的相关函数原型。    
- |- ipv4/fib_hash.c:实现路由表的查找和维护。
+ |- ipv4/fib_hash.c:实现路由表的查找和维护。    
  |- ipv4/fib_frontend.c:实现操作路由表的接口函数和通知。      
  |- ipv4/route.c：实现路由缓存的操作函数。    
 -**SourceInsight**:sourceInsight工程项目文件    
