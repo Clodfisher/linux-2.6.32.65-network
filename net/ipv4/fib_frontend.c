@@ -12,7 +12,9 @@
  *		as published by the Free Software Foundation; either version
  *		2 of the License, or (at your option) any later version.
  */
-
+/*
+net/ipv4/fib_frontend.c:实现操作路由表的接口函数和通知。
+*/
 #include <linux/module.h>
 #include <asm/uaccess.h>
 #include <asm/system.h>

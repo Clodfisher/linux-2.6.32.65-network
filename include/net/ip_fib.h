@@ -12,6 +12,16 @@
  *		as published by the Free Software Foundation; either version
  *		2 of the License, or (at your option) any later version.
  */
+ /*
+ 路由子系统的核心是转发信息库(Forwarding Information Base, FIB)，即路由表。
+ 路由表用来存储:
+ 1.用于确定输入数据报是应该转发给本机的上层协议还是继续转发的信息。
+ 2.如果需要转发，正确转发数据报所需要的信息。
+ 3.输出数据包从哪个具体的网络设备输出的信息。
+ */
+ /*
+ ip_fib.h:主要作用是，定义路由表等结构、宏和函数原型。
+ */
 
 #ifndef _NET_IP_FIB_H
 #define _NET_IP_FIB_H

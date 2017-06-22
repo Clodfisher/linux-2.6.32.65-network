@@ -12,6 +12,9 @@
  *		as published by the Free Software Foundation; either version
  *		2 of the License, or (at your option) any later version.
  */
+ /*
+ net/ipv4/fib_hash.c:实现路由表的查询和维护。
+ */
 
 #include <asm/uaccess.h>
 #include <asm/system.h>

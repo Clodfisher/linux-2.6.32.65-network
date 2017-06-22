@@ -61,7 +61,9 @@
  *		as published by the Free Software Foundation; either version
  *		2 of the License, or (at your option) any later version.
  */
-
+/*
+net/ipv4/route.c:实现路由缓存项的操作函数。
+*/
 #include <linux/module.h>
 #include <asm/uaccess.h>
 #include <asm/system.h>

@@ -1,3 +1,6 @@
+/*
+net/ipv4/fib_lookup.h:主要作用是，定义路由查找的相关函数原型。
+*/
 #ifndef _FIB_LOOKUP_H
 #define _FIB_LOOKUP_H
 
